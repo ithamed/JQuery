@@ -1,0 +1,27 @@
+[
+  {
+    "firstName" : "john",
+    "lastNmae" : "doe",
+    "email" : "jdoe@gmail.com"
+  },
+  {
+    "firstName" : "mark",
+    "lastNmae" : "smith",
+    "email" : "marksmith@gmail.com"
+  },
+  {
+    "firstName" : "mikhael",
+    "lastNmae" : "willis",
+    "email" : "mwillis@gmail.com"
+  },
+  {
+    "firstName" : "larry",
+    "lastNmae" : "samson",
+    "email" : "lsamson@gmail.com"
+  },
+  {
+    "firstName" : "bruce",
+    "lastNmae" : "williams",
+    "email" : "bruce@gmail.com"
+  }
+]
