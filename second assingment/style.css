@@ -1,0 +1,26 @@
+
+h1{
+  text-align: center;
+}
+form{
+  background-color: #ccc;
+  justify-content: center;
+}
+svg{
+  margin: 0 5%;
+}
+.srch{
+  background-color: white;
+  width: 40%;
+  text-align: left;
+}
+.border{
+  border: 5px solid black !important;
+}
+.container{
+  text-align: center;
+}
+img{
+  margin: 2%;
+  width: 90%;
+}
