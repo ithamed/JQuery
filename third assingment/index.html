@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="timer">
+    <p id="para1"> 00 : 00 : 00 </p>
+    <audio id="stop-sound">
+      <source src="./audio/Alarm-ringtone.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button id="start">start</button>
+    <button id="reset">reset</button>
+  </div>
+  <div>
+    <p>Timer 1 (<span id="para2"> 00 : 00 : 00 </span>)<img src="./image/image.png" alt="this is aan icon"><span id="edit">Edit</span></p>
+  </div>
+  <div id="set-div">
+    <input type="number" id="set-hour" value="0">
+    <input type="number" id="set-minute" value="0">
+    <input type="number" id="set-second" value="0">
+    <button id="set">Set</button>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
