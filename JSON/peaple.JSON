@@ -1,0 +1,20 @@
+{
+  "peaple" : [
+    {
+      "name" : "brad",
+      "age" : 35
+    },
+    {
+      "name" : "jan",
+      "age" : 40
+    },
+    {
+      "name" : "sara",
+      "age" : 25
+    },
+    {
+      "name" : "jef",
+      "age" : 25
+    }
+  ]
+}
