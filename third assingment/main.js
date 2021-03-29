@@ -30,10 +30,13 @@ $('#start').click(function(){
   }
 });
 $('#reset').click(function(){
-  newX = 0;
-  d = 0;
+  h = 0;
+  m = 0;
+  s = 0;
   $('#para1').text(`${leftFillNum(h, 2)} : ${leftFillNum(m, 2)} :${leftFillNum(s, 2)}`)
+  $('#para2').text(`${leftFillNum(h, 2)} : ${leftFillNum(m, 2)} :${leftFillNum(s, 2)}`)
   clearInterval(interval);
+
 })
 
 $('#edit').click(function() {

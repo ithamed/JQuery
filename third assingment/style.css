@@ -6,14 +6,17 @@ body{
 }
 #start{
   background-color: #FFFFFF;
+  color: #777777;
 }
 #reset{
   background-color: #4787D1;
+  color: #FFFFFF;
 }
 #start, #reset{
   border-radius: 50%;
   height: 15vh;
   width: 15vh;
+  font-size: 1.5rem;
 }
 #timer{
   text-align: center;
@@ -32,4 +35,7 @@ p{
 }
 #set-div{
   display: none;
+}
+input{
+  width: 40px;
 }

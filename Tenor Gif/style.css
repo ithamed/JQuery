@@ -5,3 +5,7 @@ body{
 input{
   width: 92%;
 }
+img{
+  height: 200px;
+  border-radius: 20px;
+}
